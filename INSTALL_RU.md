@@ -1,5 +1,5 @@
 # Установка в свою CS 1.6
-Инструкция предполагает, что AMX Mod X 1.9 уже установлен и работает. Играть нужно в созданную вами локальную игру: установка плагина на своём компьютере не меняет чужой сервер.
+**До начала AMX Mod X 1.9 должен быть уже скачан, установлен в вашу CS 1.6 и работать. В архив карты он не входит. Одного скачивания недостаточно — сначала установите AMX Mod X.** Играть нужно в созданную вами локальную игру: установка плагина на своём компьютере не меняет чужой сервер.
 
 ## 1. Скачайте карту
 Откройте Releases, затем Assets и скачайте `adv_yandex_xyin9.zip`. Распакуйте архив в отдельную папку. Внутри есть папка `cstrike`.
@@ -17,6 +17,26 @@
 - `cstrike/addons/amxmodx/plugins/yx_xyin9.amxx`
 Ошибочный путь: `cstrike/cstrike/maps/...`. Дополнительную папку cstrike создавать не нужно.
 WAD должен лежать прямо в `cstrike/yx_xyin9.wad`, а не в maps.
+
+### Таблица размещения файлов
+
+Все пути справа начинаются от папки вашей игры `cstrike`.
+
+| Из папки `cstrike` в архиве | Куда в игре |
+|---|---|
+| `maps/adv_yandex_xyin9.bsp` | `cstrike/maps/adv_yandex_xyin9.bsp` |
+| `maps/adv_yandex_xyin9.res` | `cstrike/maps/adv_yandex_xyin9.res` |
+| `yx_xyin9.wad` | `cstrike/yx_xyin9.wad` — прямо в корень cstrike |
+| `addons/amxmodx/plugins/yx_xyin9.amxx` | `cstrike/addons/amxmodx/plugins/yx_xyin9.amxx` |
+| Папка `models/yx_xyin9` целиком | `cstrike/models/yx_xyin9` |
+| Папка `sprites/yx_xyin9` целиком | `cstrike/sprites/yx_xyin9` |
+| Папка `sound/yx_xyin9` целиком, со всеми вложенными папками | `cstrike/sound/yx_xyin9` |
+| Все шесть файлов `gfx/env/yx_xyin9*.tga` | `cstrike/gfx/env/` |
+
+Проще всего скопировать **всё содержимое cstrike из архива в cstrike игры** с объединением папок. Не создавайте `cstrike/cstrike` и не переносите файлы моделей/звуков из их подпапок.
+
+
+README, VERSION и другие документы из корня архива копировать в игровые папки не нужно — оставьте их для справки.
 
 ## 4. Включите плагин
 Откройте Блокнотом `cstrike/addons/amxmodx/configs/plugins.ini`.
