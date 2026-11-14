@@ -15,8 +15,8 @@
 3. [Обновление карты](UPDATE_RU.md).
 4. [Описание плагина](PLUGIN_RU.md).
 
-Текущая версия комплекта: **v1.0.0**. Внутренняя версия плагина: **3.45.2**.
-[Исходники именно v1.0.0](https://github.com/okaygoogle101/adv_yandex_xyin9-source/tree/v1.0.0) · [Релиз исходников v1.0.0](https://github.com/okaygoogle101/adv_yandex_xyin9-source/releases/tag/v1.0.0).
+Текущая версия комплекта: **v1.0.1**. Внутренняя версия плагина: **3.45.2**.
+[Исходники именно v1.0.1](https://github.com/okaygoogle101/adv_yandex_xyin9-source/tree/v1.0.1) · [Релиз исходников v1.0.1](https://github.com/okaygoogle101/adv_yandex_xyin9-source/releases/tag/v1.0.1).
 
 Готовые файлы находятся в `cstrike/`. Имена карты и ресурсов при обновлениях сохраняются.
 [История изменений](CHANGELOG.md) · [Как готовятся новые версии](RELEASING.md).
